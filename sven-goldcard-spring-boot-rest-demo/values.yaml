@@ -1,0 +1,10 @@
+this-or-that:
+  replicaCount: 1
+  image:
+    repository: svene/spring-boot-rest-demo
+    tag: latest
+  network:
+    http:
+      servicePort: 8080
+      ingress:
+        host: spring-boot-rest-demo.apps.okd.baloise.dev
