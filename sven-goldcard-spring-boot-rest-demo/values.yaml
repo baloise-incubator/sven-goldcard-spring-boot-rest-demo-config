@@ -1,4 +1,4 @@
-this-or-that:
+sven-goldcard-spring-boot-rest-demo:
   replicaCount: 1
   image:
     repository: svene/spring-boot-rest-demo
